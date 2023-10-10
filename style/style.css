@@ -3,12 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(246, 248, 249)
 }
 
-
+:root {
+    font-family: sans-serif;
+}
 
 /* stile header */
+header {
+    background-color: white;
+    height: 80px;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
 
+#logo {
+    margin: 10px;
+}
 
 
 /* stile main */
