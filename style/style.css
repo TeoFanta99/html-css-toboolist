@@ -16,7 +16,6 @@ body {
 /* stile header */
 header {
     background-color: white;
-    height: 70px;
     font-weight: bold;
     font-size: 35px;
 }
@@ -52,7 +51,7 @@ header {
 
 #buttons > span {
     padding: 5px;
-    border-radius: 7%;
+    border-radius: 15px;
 }
 
 #add-task {
@@ -109,16 +108,15 @@ h4 {
 
 /* stili bottoni colorati */
 .bottone {
-    border-radius: 30%;
+    border-radius: 15px;
     padding: 5px;
     color: white;
     font-size: 10px;
 }
 
-
 #editorial {
     background-color: #46ACF1;
-    border: #46ACF1 solid 1px;
+    border: #46ACF1;
 }
 
 #q1 {
