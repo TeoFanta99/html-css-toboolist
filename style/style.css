@@ -13,14 +13,18 @@
 /* stile header */
 header {
     background-color: white;
-    height: 80px;
+    height: 70px;
     font-weight: bold;
     font-size: 35px;
     border-bottom: 2px solid black;
 }
 
+
 #logo {
     margin: 10px;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
 }
 
 
