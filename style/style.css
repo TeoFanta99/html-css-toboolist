@@ -44,6 +44,13 @@ header {
     border-bottom: 2px solid grey
 }
 
+#buttons {
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding-top: 12px;
+    padding-left: 50px;
+}
+
 #buttons > span {
     padding: 5px;
     border-radius: 7%;
