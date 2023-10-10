@@ -6,7 +6,7 @@
 }
 
 :root {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* stile header */
@@ -23,8 +23,8 @@ header {
 }
 
 
-/* stile main */
-#container {
+/* stili prima linea + 2 bottoni */
+#big-container {
     width: 80%;
     height: 825px;
     margin-top: 50px;
@@ -35,8 +35,8 @@ header {
 }
 
 #first-line {
-    height: 70px;
-    border-bottom: 2px solid black;
+    height: 50px;
+    border-bottom: 2px solid grey
 }
 
 #buttons > span {
@@ -53,4 +53,80 @@ header {
     background-color: (0,0,0,0);
     color: grey;
     border: 1px solid grey;
+}
+
+
+
+
+/* sezioni new task, today e upcoming */
+#container {
+    padding-top: 30px;
+    padding-left: 45px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.lines {
+    padding-top: 15px;
+}
+
+.yes {
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 8px;
+}
+
+.no {
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.bottone {
+    border-radius: 30%;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+#editorial {
+    background-color: #46ACF1;
+    border: #46ACF1 solid 1px;
+}
+
+#q1 {
+    background-color: blueviolet;
+    border: blueviolet;
+}
+
+#recruiting {
+    background-color: green;
+    border: green;
+}
+
+#mobile {
+    background-color: orange;
+    border: orange;
+}
+
+#website {
+    background-color: rgb(204, 79, 165);
+    border: rgb(204, 79, 165);
+}
+
+#sales {
+    background-color: rgb(99, 148, 60);
+    border: rgb(99, 148, 60);
+}
+
+#today, #upcoming {
+    padding-top: 40px;
 }
